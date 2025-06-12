@@ -1,8 +1,8 @@
 .sidebar-header {
     width: 100%; /* Let grid manage width now */
-    height: 100%;
+    height: 100vh;
     padding-left: 4%;
-    padding-top: 20%;
+    padding-top: 10%;
     display: block;
     overflow-y: auto;
 }
