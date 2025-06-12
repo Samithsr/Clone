@@ -1,0 +1,51 @@
+.sidebar-header{
+    width: 12%;
+    /* background-color: red; */
+    height: auto;
+    top: 0;
+    padding-left: 2%;
+    display: grid;
+    /* background-color: red; */
+    padding-top: 30px;
+}
+
+.shortcut-link img{
+    width: 20px;
+    margin-right: 20px;
+    display: grid;
+}
+
+.sidebar-link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.subscribe-header{
+    border: 0;
+    height: 1px;
+    margin-top: 10px; 
+}
+
+.subscribe-header h3{
+    margin: 10px 0;
+    font-size: 16px;
+    color: #5a5a5a;
+
+}
+
+
+.subscribe-list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.subscribe-list img{
+    width: 20%;
+    margin: 10px 0;
+    border-radius: 50px;
+}
