@@ -67,8 +67,9 @@ const Sidebar = () => {
                 <img src={news} alt="" />
                 <p>News</p>
             </div>
+            <hr />
         </div>
-        <hr />
+        
 
 
 

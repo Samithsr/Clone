@@ -1,0 +1,19 @@
+.layout-container {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: calc(100vh - 60px); /* Adjust if Navbar is 60px */
+  overflow: hidden; /* Prevent global scroll */
+}
+
+.sidebar-header {
+  height: 100%;
+  overflow: hidden; /* Fixed sidebar */
+}
+
+.home-scroll-wrapper{
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+  scrollbar-width: none;
+}
+
