@@ -8,16 +8,22 @@ import thumbnail5 from '../../assets/thumbnail5.png'
 import thumbnail6 from '../../assets/thumbnail6.png'
 import thumbnail7 from '../../assets/thumbnail7.png'
 import thumbnail8 from '../../assets/thumbnail8.png'
+import Suggestion from '../NavbarSuggestion/Suggestion'
 
 const Home = () => {
   return (
+    <>
+    <div className='suggestions'>
+    {/* <Suggestion /> */}
+    </div>
     <div className='home-video-container'>
+        
         <div className='video-home-container'>
             <img src={thumbnail1} alt="" />
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
 
             </div>
         </div>
@@ -28,7 +34,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -37,7 +43,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                <h3>GreatStack.</h3>
-               <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+               <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -46,7 +52,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -55,7 +61,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k iews &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -64,7 +70,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -73,7 +79,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -82,7 +88,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -91,7 +97,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -100,7 +106,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -109,7 +115,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -118,7 +124,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -127,7 +133,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                <h3>GreatStack.</h3>
-               <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+               <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -136,7 +142,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -145,7 +151,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                <h3>GreatStack.</h3>
-               <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+               <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -154,7 +160,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -163,7 +169,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -172,7 +178,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
         <div className='video-home-container'>
@@ -180,7 +186,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
         <div className='video-home-container'>
@@ -188,7 +194,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
         <div className='video-home-container'>
@@ -196,7 +202,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -205,7 +211,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -214,7 +220,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-        <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+        <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -223,7 +229,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -232,7 +238,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-            <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+            <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -241,7 +247,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-           <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+           <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -250,7 +256,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-              <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+              <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -259,7 +265,7 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-               <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+               <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -268,7 +274,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-           <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+           <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -277,7 +283,7 @@ const Home = () => {
             <div className='title-section'>
                 <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>
-                <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+                <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
@@ -286,11 +292,12 @@ const Home = () => {
             <div className='title-section'>
                <h2>Best Channel to learn Coading.</h2>
                 <h3>GreatStack.</h3>  
-              <p>122k Views &nbsp;&bull;&nbsp;12 hours</p>
+              <p>122k views &nbsp;&bull;&nbsp;12 hours</p>
             </div>
         </div>
 
     </div>
+    </>
   )
 }
 

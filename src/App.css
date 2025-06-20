@@ -1,19 +1,25 @@
 .layout-container {
   display: grid;
   grid-template-columns: 15% 85%;
-  height: calc(100vh - 60px); /* Adjust if Navbar is 60px */
-  overflow: hidden; /* Prevent global scroll */
+  height: calc(100vh - 60px); /* Assuming Navbar is 60px tall */
+  overflow: hidden;
 }
 
-.sidebar-header {
+.main-content-wrapper {
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  overflow: hidden; /* Fixed sidebar */
+  overflow: hidden;
 }
 
-.home-scroll-wrapper{
-  height: 100%;
+/* Scroll only Home content */
+.home-scroll-wrapper {
   overflow-y: auto;
-  padding: 20px;
+  height: 100%;
+  padding: 15px 15px;
   scrollbar-width: none;
 }
 
+.home-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}

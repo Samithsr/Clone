@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Sidebar.css"
 
 import home_icon from "../../assets/home.png"
@@ -20,8 +20,11 @@ import jack from "../../assets/jack.png"
 import Home from '../Pages/Home'
 
 const Sidebar = () => {
+
+    const [isactive, setisactive] = useState(Home)
+    
   return (
-    <div className='sidebar-header'>
+    <div className={`sidebar-header`}>
         <div className='shortcut-link'>
             <div className='sidebar-link'>
                 <img src={home_icon} alt="" />

@@ -1,0 +1,64 @@
+.navbar-suggestion-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+.navbar-suggestion-scroll {
+  flex: 1;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.navbar-suggestion-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-suggestion-buttons {
+  display: inline-flex;
+  padding: 0 10px;
+}
+
+.navbar-suggestion-buttons button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #dcd7d7ac;
+  border: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  /* background-color: red; */
+  white-space: nowrap;
+}
+
+.scroll-arrow {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  /* background-color: red; */
+  margin-top: 10px;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-arrow.left {
+  margin-right: 5px;
+}
+
+.scroll-arrow.right {
+  margin-left: 5px;
+}

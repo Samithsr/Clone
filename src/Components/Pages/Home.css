@@ -1,19 +1,29 @@
+.suggestions{
+    flex-direction: row;
+}
+
+.suggestions{
+    position: sticky;
+}
+
 .home-video-container{
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    /* margin-top:0px; */
+    /* padding: 5px; */
 }
 
 .video-home-container{
-    width: 20%;
-    padding: 10px;
+    width: 20%; 
+    padding: 10px 5px;
+    /* margin: 6px 0; */
     box-sizing: border-box;
 }
 
 .video-home-container img{
     display: flex;
     width: 100%;
-    height: 15vh;
+    height: 18vh;
    object-fit: cover;
    border-radius: 5px;
 }
